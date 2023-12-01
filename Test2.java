@@ -10,7 +10,7 @@ interface Taxi {
 class Uber implements Taxi {
     public void bookTaxi(String source, String destination) {
         System.out.println("Uber taxi is booked from "+source+" to "+destination);
-    }    
+    }
 }
  */
 
